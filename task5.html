@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+            background-color: #ffffff;
+            padding: 100px;
+            border-radius: 1px;
+        }
+
+        h1 {
+            color: blue;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        table, th, td {
+            border-collapse: collapse;
+            padding: 10px;
+        }
+
+        th, td {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form>
+            <table border="1">
+                <tr>
+                    <th width ="150">First Name:</th>
+                    <td width ="1000">
+                    </td>
+                </tr>
+                <tr>
+                    <th>Last Name:</th>
+                    <td width ="1000"></td>
+                </tr>
+                <tr>
+                    <th width ="150">Email:</th>
+                    <td width ="1000">
+                    </td>
+                </tr>
+                <tr>
+                    <th width ="150">Password:</th>
+                    <td width ="1000">
+                    </td>
+                </tr>
+                <tr>
+                    <th width ="150">Re-enter password:</th>
+                    <td width ="1000">
+                    </td>
+                </tr>
+                <tr>
+                    <th width ="150">Gender:</th>
+                    <td >
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <br></br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th> Age:</th>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th> Phone number:</th>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Address:</th>
+                    <td height = "100"></td>
+                </tr>
+                <tr>
+                    <th> State:</th>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th> Country:</th>
+                    <td>
+                        <select id="Country" name="Country">
+                        <option value="choose your Country">Choose your country</option>
+                        <option value="Bharat">Bharat</option>
+                        <option value="USA">U.S.A</option>
+                        <option value="prefer-not-to-say">Prefer not to say</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Language Known</th>
+                    <td>
+                        <form>
+                            <input type="checkbox" id="English" name="color" value="English">
+                            <label for="red">English</label>
+                            <input type="checkbox" id="blue" name="color" value="blue">
+                            <label for="blue">Kannada</label>
+                            <input type="checkbox" id="green" name="color" value="green">
+                            <label for="green">Hindi</label>
+                            <input type="checkbox" id="yellow" name="color" value="yellow">
+                            <label for="yellow">Telugu</label>
+                        </form>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="checkbox" id="English" name="color" value="English">
+                            <label for="red">Hereby I declare all the given details are true</label>
+                            </tr>
+                            </td>
+                </tr>
+                <tr>
+                    <tr>
+                        <td colspan="2">
+                            <tr>log in to <a href="https://ethnus.com/">Ethnus</a> website</tr>
+                        </td>
+                    </tr>
+                </tr>
+
+            </table>
+            <br>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>
